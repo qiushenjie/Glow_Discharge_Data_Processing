@@ -1,3 +1,7 @@
 # Glow_Discharge_Data_Processing
 Glow Discharge Data Processing With Matlab
+
+
+
+
 导入的数据为一批文件名为对应放电时刻的.csv文件，shujushengcheng.m文件可对其进行批量处理。对于单个csv文件，将文件中的矩阵沿x或y方向累加成一条数据，并作归一化处理；分别对所有csv文件处理，最后将每个时刻对应的单条数据按时刻顺序组合成一个二维矩阵，通过guiyihua.m绘制出放电结构的时空演变图像；通过qiangdu.m绘制出时刻最强强度曲线代表放电图像强度变化情况。
